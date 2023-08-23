@@ -1,0 +1,10 @@
+// como conectar ?
+use("sample_training")
+
+
+// como hacer consultas ?
+// ->db (palabra reservada)
+// ->find (busqueda)
+// ->count() (cuenta la cantidad) 
+
+db.zips.find({ state: "NY" }).count()
